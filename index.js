@@ -13,7 +13,7 @@ app.use(express.static("public"));
 app.use(urlEncodedBodyParser);
         
 
-app.listen(80, function() {
+app.listen(3000, "localhost", function() {
     console.log("I'm listening");
 });
 
