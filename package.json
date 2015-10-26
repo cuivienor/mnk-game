@@ -1,0 +1,24 @@
+{
+  "name": "mnk-game",
+  "version": "0.0.0",
+  "description": "Multiplayer (m,n,k,p,q) game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pppetrov/mnk-game.git"
+  },
+  "author": "Peter Petrov",
+  "license": "GNU v2.0",
+  "bugs": {
+    "url": "https://github.com/pppetrov/mnk-game/issues"
+  },
+    "dependencies": {
+        "express": "latest",
+        "body-parser": "latest",
+        "method-override": "latest",
+        "ejs": "latest"
+    }
+}
