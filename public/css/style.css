@@ -1,0 +1,57 @@
+#player-stats{
+    display: none;
+}
+
+.block {
+    display: block;
+}
+td {
+    width: 3em;
+    height: 3em;
+    padding: 3px 3px 3px 3px;
+    line-height: 0px;
+}
+
+img {
+    font-size: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.player-info {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#messages {
+    text-align: center;
+}
+
+#stats {
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#player0-score {
+    float: left;
+}
+
+#player1-score {
+    float: right;
+}
+
+#player1 {
+    text-align: right;
+}
+
+.active {
+    border: solid thin;
+}
+       
+
+	
