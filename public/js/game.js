@@ -134,5 +134,3 @@ var Game = function Game (m, n, k, name, p, q) {
 
     this.messages.displayMessage("Please Enter Player Names");
 };
-
-
