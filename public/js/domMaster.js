@@ -65,7 +65,7 @@ var GameContainer = function GameContainer(game) {
     };
 
     this.showImage = function showImage(i, j) {
-	this.$cellArray[i][j].append($("<img>").attr("src", game.currentPlayer().token).css("width", "100%"));
+        this.$cellArray[i][j].append($("<img>").attr("src", game.currentPlayer().token).css("width", "100%"));
     };
     
     this.generateNewTable = function generateNewTable() {
