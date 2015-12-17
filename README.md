@@ -15,6 +15,10 @@ This was originally written entirely in HTML, CSS and Javascript and a simple Ex
 
 The ```player``` instance holds its own moves, and can make a move and determine the score of a move. The score of a move I defined as the maximum length of consecutive ticks the current player makes with the current move. This value is enough to determine a possible victory, as if the score is ```k``` then the game is won by that player.
 
-The ```game``` instance holds the two players and has methods to make moves, by delegating to the respective player, check for wins and ties, and restart.
+The ```game``` instance holds the two players and has methods to make moves, by delegating to the respective player, check for wins and ties, and restart. The game constructor supports any (m, n, k, p, q) game but for rendering purposes only few games are currently playable. 
 
-The rendering is handled by several objects (```GameContainer```, ```GameChooser```, ```Messages```, ```PlayerStats```), which deal with all the DOM manipulation. 
+The rendering is handled by several objects (```GameContainer```, ```GameChooser```, ```Messages```, ```PlayerStats```), which deal with all the DOM manipulation.
+
+# Further Work
+My lack of experience led to code which was too highly coupled to the DOM so implementing the Inception Tic-Tac-Toe had to be separately written. Further work has moved to a [multiplayer version](https://github.com/pppetrov/mnk-multiplayer) of the game, which will be built with backbone and socket.io, and eventually have a slack integration, which will allow players to challenge each other and keep score and a company wide leader board.
+
